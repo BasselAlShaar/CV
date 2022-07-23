@@ -1,0 +1,176 @@
+
+
+
+
+body{
+    border: 5px black solid;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar
+{
+    height: 50px;
+    display: flex;
+    background: #333333;
+}
+
+.nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+  
+.nav-item {
+    float: left;
+}
+
+.nav-item-media {
+    float: left;
+    border: #555555 1px solid;
+}
+  
+.nav-item .nav-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+}
+
+.nav-item-media .nav-link-media {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+    font-size: larger;
+}
+  
+.nav-item .nav-link:hover {
+    background-color: #111111;
+}
+
+.nav-item-media .nav-link-media:hover {
+    color: #555555;
+}
+
+#media
+{
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+
+}
+
+.right-nav-links
+{
+    width: 50%;
+    margin-left: auto;
+}
+
+
+.left-name
+{
+    width: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: x-large;
+    color: white;
+}
+
+.header
+{
+    display:flex;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.center-info
+{
+    align-items: center;
+}
+
+#logo
+{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.background
+{
+    background-image: url(assets/back1.jpg);
+    background-size: 100%;
+}
+.info
+{
+    text-align: center;
+}
+
+#name-info
+{
+    font-size: xx-large;
+}
+
+.About
+{
+    display: flex;
+    border-bottom: #555555 2px solid;
+}
+#About-Me-left
+{
+    width: 50%;
+    border-right: #555555 2px solid;
+}
+#bio-items
+{
+    font-size: larger;
+}
+#par-about
+{
+    font-size: larger;
+}
+
+#divs
+{
+    display: flex;
+}
+
+#left
+{
+    width: 50%;
+}
+
+#right
+{
+    width: 50%;
+    text-align: end;
+    margin-right: 10px;
+}
+
+#sub
+{
+    display: flex;
+    padding: 10px;
+}
+h1
+{
+    text-align: center;
+}
+
+.Education
+{
+    border-bottom: #555555 2px solid;
+}
