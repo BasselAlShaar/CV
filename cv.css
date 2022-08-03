@@ -183,3 +183,10 @@ h1
 {
     display: flex;
 }
+
+
+@media (min-width=300px) {
+    .Bio-right {
+        font-size: x-small;
+    }
+}
